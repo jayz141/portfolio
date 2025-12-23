@@ -13,11 +13,13 @@ const styles = {
 }
 
 function Footer() {
+    const date = new Date();
+    const year = date.getFullYear();
     return ( 
         <Paper style={styles.container}>
             <Container>
                 <Box p={2}>
-                 <Typography style={{textAlign:"center"}} color="textSecondary">@2023 Muneeb Rehman</Typography>
+                 <Typography style={{textAlign:"center"}} color="textSecondary">&copy;{year} Zafer Ahmad</Typography>
                 </Box>
 
             </Container>

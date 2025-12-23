@@ -9,7 +9,7 @@ import { Parallax } from "react-scroll-parallax";
 
 
 const { useEffect, useRef, forwardRef } = React;
-const backgroundImage = "https://images.unsplash.com/photo-1697450300645-faf3676bb7b5?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+const backgroundImage = "https://images.unsplash.com/photo-1508402476522-c77c2fa4479d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 
 
 const styles ={
@@ -83,15 +83,15 @@ function HeroSection({handleShowProject}) {
                 <Grid container direction="column">
            
                         <Typography align="center"  variant="h3"><span className="hello">Hello</span><span className="im">, I'm</span></Typography>
-                        <Typography className="fullname" align="center"  style={styles.fontStyle1}  variant="h1">Muneeb Rehman</Typography>
-                        <Typography className="firstname" color="textSecondary" style={styles.name} align="center">call me muneeb</Typography>
+                        <Typography className="fullname" align="center"  style={styles.fontStyle1}  variant="h1">Zafer Ahmad</Typography>
+                        <Typography className="firstname" color="textSecondary" style={styles.name} align="center">And I am a software engineer</Typography>
                         <Typography className="resume" align="center" style={styles.fontStyle2} variant="h5">AND THIS IS MY RESUME</Typography>
         
                         <Grid className="links" justifyContent="center" container>
-                            <IconButton href="https://www.linkedin.com/in/muneeb-rehman-5257101b7/">
+                            <IconButton href="https://www.linkedin.com/in/zafer-ahmad1/">
                                 <LinkedInIcon  style={styles.iconStyle}/>
                             </IconButton>
-                            <IconButton href="https://github.com/mrehmm001">
+                            <IconButton href="https://github.com/jayz141">
                                 <GitHubIcon  style={styles.iconStyle}/>
                             </IconButton>
                         </Grid>

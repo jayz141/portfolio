@@ -75,32 +75,32 @@ function AboutMe() {
  
                                 <Grid item>
                                     <Typography color="textSecondary" variant={fontSize}>
-                                        My name is Muneeb Rehman, a software engineer driven by an enduring fascination with computers and coding. My journey in software development began at a young age, and I've since cultivated a comprehensive skill set. With proficiency in various programming languages and a flair for problem-solving, I have consistently contributed to the successful delivery of software projects.
+                                        Computer Science graduate with hands-on experience in software development, machine learning, and systems-level problem solving. I’ve built practical projects ranging from AI-driven study systems to performance-optimised PC builds, using Python, Java, and modern development tools. Strong in algorithms, debugging, and applying technical knowledge to real-world challenges.
                                     </Typography> 
                                 </Grid>
                                 <Grid item>
                                     <Typography color="textSecondary" variant={fontSize}>
-                                    I am an adaptable team player who excels in collaborative environments and is well-versed in the latest development methodologies and tools. My commitment to crafting efficient and innovative software solutions remains unwavering, making me a valuable asset to any software development team.
+                                    Adaptable team contributor with a strong focus on problem-solving, optimisation, and building reliable software. Comfortable working collaboratively, communicating technical ideas clearly, and applying modern development tools to deliver practical solutions.
                                     </Typography> 
                                 </Grid>
                                 <Grid item>
-                                    <Typography style={{display:"inline", marginRight:"0.5em"}} color="primary" variant={fontSize}>Interests:</Typography>  <Typography style={{display:"inline"}} variant={fontSize} color="textPrimary">Full Stack <Typography style={{display:"inline"}} color="textSecondary" variant={fontSize}>•</Typography> Software Engineering <Typography style={{display:"inline"}} color="textSecondary" variant={fontSize}>•</Typography> Data Science <Typography style={{display:"inline"}} color="textSecondary" variant={fontSize}>•</Typography> Machine Learning</Typography> 
+                                    <Typography style={{display:"inline", marginRight:"0.5em"}} color="primary" variant={fontSize}>Interests:</Typography>  <Typography style={{display:"inline"}} variant={fontSize} color="textPrimary">Full-Stack Development <Typography style={{display:"inline"}} color="textSecondary" variant={fontSize}>•</Typography> Software Engineering <Typography style={{display:"inline"}} color="textSecondary" variant={fontSize}>•</Typography> Artificial Intelligence & Machine Learning <Typography style={{display:"inline"}} color="textSecondary" variant={fontSize}>•</Typography> Data Science</Typography> 
                                 </Grid>
                                 <Grid item>
                                 <Grid item>
                                     <Typography color="primary" variant={fontSize}>Here are a few technologies I’ve been working with recently:</Typography> 
                                     <Grid container>
                                         <Grid item flex={1}>
-                                            <Typography className={"skill"} style={{marginBottom:"1em",display:"flex"}}><ArrowRightIcon color="primary"/>TypeScript</Typography>
+                                            <Typography className={"skill"} style={{marginBottom:"1em",display:"flex"}}><ArrowRightIcon color="primary"/>Python</Typography>
+                                            <Typography className={"skill"} style={{marginBottom:"1em",display:"flex"}}><ArrowRightIcon color="primary"/>Java</Typography>
                                             <Typography className={"skill"} style={{marginBottom:"1em",display:"flex"}}><ArrowRightIcon color="primary"/>React</Typography>
-                                            <Typography className={"skill"} style={{marginBottom:"1em",display:"flex"}}><ArrowRightIcon color="primary"/>Nodejs</Typography>
-                                            <Typography className={"skill"} style={{marginBottom:"1em",display:"flex"}}><ArrowRightIcon color="primary"/>Nextjs</Typography>
+                                            <Typography className={"skill"} style={{marginBottom:"1em",display:"flex"}}><ArrowRightIcon color="primary"/>Django</Typography>
                                         </Grid>
                                         <Grid item flex={1}>
-                                            <Typography className={"skill"} style={{marginBottom:"1em",display:"flex"}}><ArrowRightIcon color="primary"/>Langchain</Typography>
-                                            <Typography className={"skill"} style={{marginBottom:"1em",display:"flex"}}><ArrowRightIcon color="primary"/>OpenAI</Typography>
+                                            <Typography className={"skill"} style={{marginBottom:"1em",display:"flex"}}><ArrowRightIcon color="primary"/>Machine Learning</Typography>
+                                            <Typography className={"skill"} style={{marginBottom:"1em",display:"flex"}}><ArrowRightIcon color="primary"/>Scikit-learn</Typography>
                                             <Typography className={"skill"} style={{marginBottom:"1em",display:"flex"}}><ArrowRightIcon color="primary"/>TensorFlow</Typography>
-                                            <Typography className={"skill"} style={{marginBottom:"1em",display:"flex"}}><ArrowRightIcon color="primary"/>Scikit-Learn</Typography>
+                                            <Typography className={"skill"} style={{marginBottom:"1em",display:"flex"}}><ArrowRightIcon color="primary"/>Git</Typography>
                                         </Grid>
          
                                     </Grid>

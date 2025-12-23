@@ -73,7 +73,7 @@ function Contact() {
                                 <Typography className="small-talk" variant="h6" color="textSecondary" style={{textAlign:"center",fontWeight:500}}>Want to get in touch? Whether you have a question or just want to say hi, I’ll try my best to get back to you!</Typography>
                             </Box>
                             <Box className="say-hello" style={{display:"flex",justifyContent:"center"}}>
-                                <Button href="mailto:muneeb73@outlook.com" style={{padding:"1em"}}  variant="outlined">Say Hello</Button>
+                                <Button href="mailto:zaferahmad002@gmail.com" style={{padding:"1em"}}  variant="outlined">Say Hello</Button>
                             </Box>
                         </Box>
 

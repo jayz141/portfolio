@@ -11,47 +11,40 @@ import FolderIcon from '@mui/icons-material/Folder';
 const { useEffect, useRef } = React;
 const featuredProjects = [
     {
-        name:"Dhania (ongoing)",
-        date:"2023",
-        description:`Dhania is my ongoing project, which I started in 2023. It is a
-        RAG (Retrieval Augmented Generation) AI model, designed to
-        enhance conversational interactions by providing contextually
-        relevant responses based on the input data. Dhania leverages
-        a robust stack of cutting-edge technologies, including Next.js,
-        Prisma, Langchain, AWS serverless infrastructure, and prompt
-        engineering.`,
-        github:"https://github.com/mrehmm001/Dhania-ai-nextjs",
+        name:"LumaLearn (AI-Driven Study Planner)",
+        date:"2024 - 2025",
+        description:`LumaLearn is an AI-driven study planner that generates personalised quizzes and adaptive study schedules from user-uploaded learning materials.
+    The system uses a Retrieval-Augmented Generation (RAG) pipeline to transform documents into structured quiz content, and applies performance-aware logic
+    to adapt study plans based on quiz results and topic difficulty. The project focuses on reliable application logic, data handling, and AI-assisted workflows.`,
+        github:"https://github.com/jayz141/final-year-project",
         liveLink:"",
-        techList:["NextJs","Prisma","Clerk","Langchain", "Socketio"],
+        techList:["Python","Django","React","LangChain", "PostgreSQL", "Rest API"],
         imageURL:"assets/dhania.png",
     },
     {
-        name:"Dissertation: Deep Image Colourisation: comparing AutoEncoders and CGans ",
-        date:"2022",
-        description:`For my final year dissertation I worked on a research project. This investigation was aimed at analysing deep learning techniques
-        used for image colourisation, specifically AutoEncoders and Conditional Adversarial networks.`,
-        github:"https://github.com/mrehmm001/Deep-Image-Colourisation-comparing-AutoEncoders-and-Conditional-Adversarial-Networks",
+        name:"Homeless Services Mobile App (HCI Project)",
+        date:"2025",
+        description:`Designed a mobile application concept to help individuals experiencing homelessness in London locate essential services such as food banks, shelters, hygiene facilities, and emergency contactsThe project was grounded in Human-Computer Interaction (HCI) research and applied user-centred design principles to prioritise accessibility, clarity, and ease of use for vulnerable users. Created a mid-fidelity interactive prototype using Figma and produced a usability evaluation proposal focused on real-world effectiveness and inclusivity.`,
         liveLink:"",
-        techList:["TensorFlow","Keras","Python","Scikit-image"],
-        imageURL:"assets/dissertation.JPG",
+        techList:["Figma","User-Centred Design","Prototyping","UX Research", "Prototyping"],
+        imageURL:"assets/HCI.png",
     },
     {
-        name:"Agile Saver",
-        date:"2021",
-        description:"AgileSaver is my 2nd year project wherein a group of 7, designed, prototyped and implemented a personal budgeting android application that uses machine learning/AI to keep track of expenses learns spending patterns and recommends deviations to the user’s day or routine in order to save them money.",
-        github:"https://github.com/mrehmm001/AgileSaver/tree/main",
+        name:"Java Real-Time Chat Application",
+        date:"2024",
+        description:`Built a real-time chat application using a client–server architecture to support concurrent users. Implemented socket-based communication, multithreading, and connection lifecycle management to ensure responsiveand reliable message delivery. The project focused on concurrency handling and network communication principles.`,
         liveLink:"",
-        techList:["Android Studio","Java","XML","Node.js","Express.js","PostgreSQL"],
-        imageURL:"assets/AgileSaver.png",
+        techList:["Java","Object-Oriented Programming","Multithreading","Client–Server Architecture"],
+        imageURL:"assets/javachat.png",
     },
     {
-        name:"MRI Brain cancer classifier",
-        date:"2022",
-        description:"Developed a deep learning model capable of identifying brain tumors from MRI images.",
-        github:"https://github.com/mrehmm001/MRI-brain-cancer-classifier",
+        name:"London Tube Route Planner",
+        date:"2023",
+        description:`Developed a route-planning application that computes optimal journeys across the London Underground network using graph-based algorithms. Implemented shortest-path logic and integrated a desktop interface to visualise routes and journey details, demonstrating practical use of algorithms in a real-world context.`,
+        github:"https://github.com/jayz141/london-tube-planner",
         liveLink:"",
-        techList:["TensorFlow","Keras","Python","OpenCV"],
-        imageURL:"assets/MRI.jpg",
+        techList:["Python","Keras","Data Structures & Algorithms","Graph Algorithms", "Tkinter"],
+        imageURL:"assets/london.png",
     },
     {
         name:"Portfolio website",
@@ -63,73 +56,30 @@ const featuredProjects = [
         imageURL:"assets/portfolio.JPG",
     },
     {
-        name:"Handwriting digit and letter classifier",
-        date:"2021",
-        description:"Developed a deep learning model capable for classifying numbers & letters from handwriting.",
-        github:"https://github.com/mrehmm001/Hand-written-digit-and-letter-classifier",
+        name:"Predicting cancer diagnoses using Forest Trees",
+        date:"2024",
+        description:"I developed a Python-based machine learning project for breast cancer analysis, where I preprocessed medical data and built predictive models using scikit-learn. I applied and optimised a Random Forest classifier and evaluated model performance to improve diagnostic accuracy and identify subtle cancer patterns",
+        github:"https://github.com/jayz141/predict-cancer-diagnoses-using-forest-trees",
         liveLink:"",
-        techList:["TensorFlow","Keras","Python","OpenCV"],
-        imageURL:"assets/EMNIST.png",
+        techList:["Scikit-learn","NumPy","Pandas","Matplotlib", "Jyputer Notebook","Random Forest"],
+        imageURL:"assets/dataset.png",
     },
     {
-        name:"2 layer neural network",
-        date:"2021",
-        description:"Developed a 2 layer feed forward neural network capable of peforming complex tasks.",
-        github:"https://github.com/mrehmm001/2-layer-Neural-Network-Implementation",
+        name:"Social media network project",
+        date:"2023",
+        description:"I developed a Python-based social network analysis project in 2023 that models user relationships and provides features such as connection visualisation, friend recommendations, and relationship summaries. I used Object-Oriented Programming, file I/O, and efficient data structures, with robust error handling to ensure data integrity",
+        github:"https://github.com/jayz141/social-media-network-project",
         liveLink:"",
-        techList:["MatLab"],
-        imageURL:"assets/matlab.JPG",
+        techList:["Python"],
+        imageURL:"assets/social.png",
     },
+    
     
 ]
 
 const otherProjects =
     [  
-        {
-        name:"Game project",
-        date:"2019",
-        description:"I made a fun 2D game project during my first year of University. I used Javascript with the help of P5JS library to make this. The game has recently been updated to include multiplayer feature, using socket.io!",
-        github:"https://github.com/mrehmm001/Game-Project",
-        liveLink:"https://game-project.onrender.com/",
-        techList:["P5.js","JavaScript","Socket.io"],
-        imageURL:"assets/gameProject.png",
-    }, {
-        
-        name:"Todo app (Java app)",
-        date:"2021",
-        description:"Developed a TODO GUI application using Java Swing library. The application is used for organising tasks, remember deadlines & to keep track of progress.",
-        github:"https://github.com/mrehmm001/Todo-list",
-        liveLink:"",
-        techList:["Java","Swing"],
-        imageURL:"assets/Todo.png",
-    },
-    {
-        name:"Goldories (Web app)",
-        date:"2021",
-        description:"Goldories is a full stack 2nd-year dynamic web application project used for calculating calories from food.",
-        github:"",
-        liveLink:"https://www.doc.gold.ac.uk/usr/422/",
-        techList:["HTML","CSS","Node.js","Express.js","MongoDB","Bcrypt"],
-        imageURL:"assets/Goldories.png",
-    },
-    {
-        name:"Data visualisation project",
-        date:"2020",
-        description:"Developed a Data visualisation app which you can visualise several data, such as population map, Solar System, GDP data etc.",
-        github:"https://github.com/mrehmm001/Data-visualisation-project",
-        liveLink:"",
-        techList:["P5.js","JavaScript","HTML","CSS"],
-        imageURL:"assets/DataVis.png",
-    },
-    {
-        name:"Connect three app",
-        date:"2020",
-        description:"Developed a fun android app called Connect 3 based off the game, Connect 4 and TicTacToe. Where the goal is to connect 3 in a row to win, you can play this game with a friend.",
-        github:"https://github.com/mrehmm001/Connect-Three",
-        liveLink:"",
-        techList:["Android Studio","Java","XML"],
-        imageURL:"assets/connect3.png",
-    },
+       
 ]
 
 const styles = {
@@ -280,13 +230,7 @@ function Projects() {
                 </Box>
             </Container>
             <Container>
-                <Box py={5}>
-                    <Heading customClass={"heading-4"} alignMent="center" heading="OTHER PROJECTS"/>  
-                    {/* <Typography variant="h5">Other Projects</Typography> */}
-                    <Grid container spacing={3} columns={{ xs: 1, sm: 2, md: 3 }}>
-                        {listSecondaryProjects()}
-                    </Grid>
-                </Box>
+               
 
             </Container>
 
